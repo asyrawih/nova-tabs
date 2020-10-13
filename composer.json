@@ -8,11 +8,13 @@
     "authors": [
         {
             "name": "Emini Arts GmbH",
-            "email": "support@eminiarts.ch",
-            "homepage": "https://eminiarts.ch"
         }
     ],
     "license": "MIT",
+    "require": {
+        "php": "^7.3.0",	
+        "laravel/nova": "^2.9.0"
+    },
     "autoload": {
         "psr-4": {
             "Eminiarts\\Tabs\\": "src/"
