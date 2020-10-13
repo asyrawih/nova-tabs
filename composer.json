@@ -17,13 +17,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Eminiarts\\Tabs\\": "src/"
+            "Hanan\\Tabs\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Eminiarts\\Tabs\\TabsServiceProvider"
+                "Hanan\\Tabs\\TabsServiceProvider"
             ]
         }
     },
